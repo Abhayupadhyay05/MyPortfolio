@@ -1,4 +1,4 @@
-let listA = document.querySelectorAll('a'); // Corrected to select all anchor tags
+let listA = document.querySelectorAll('a'); 
 let active = 'intro';
 let zIndex = 2;
 
@@ -14,7 +14,7 @@ listA.forEach(a => {
         if(valueTab && valueTab !== active){
             let tabActive = document.getElementById(valueTab);
             zIndex++;
-            tabActive.style.zIndex = zIndex; // Corrected zIndex assignment
+            tabActive.style.zIndex = zIndex; 
             active = valueTab ;
 
             tabActive.style.setProperty('--x', event.clientX + 'px');
@@ -23,3 +23,4 @@ listA.forEach(a => {
         }
     })
 })
+
