@@ -30,7 +30,7 @@ header nav a{
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background-image: url(images/bgc.jpg);
+    background-image: url(bgc.jpg);
     background-size: cover; 
     background-position: center; 
 }
